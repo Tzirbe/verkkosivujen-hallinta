@@ -1,0 +1,19 @@
+body { 
+    background-color: black;
+    color: white;
+}
+
+h1 { font-size: 20px;
+}
+
+p { font-size: 12px;
+    color: lightgray;
+}
+
+.test
+ { border: 2px dotted;
+    width: 100px;
+    height: 100px;
+}
+
+ul {list-style-type: square;}
