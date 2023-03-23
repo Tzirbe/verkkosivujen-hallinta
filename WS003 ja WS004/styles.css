@@ -1,0 +1,39 @@
+body { 
+    background-image: url(./images/taustakuva.jpg);
+    color: black;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+h1 { border-style:dashed;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+h2 { border-style:dashed;
+width: 150px;
+font-size: 18px;
+}
+
+p { background-color: white;
+    font-size: 16px;
+    color: black;
+    border-radius: 50px;
+}
+
+.test
+ { border: 2px dotted;
+    width: 100px;
+    height: 100px;
+}
+
+ul {list-style-type: square;}
+
+#pic1 {
+    padding-left: 34px;
+}
+
+#pic2 { 
+    padding-left: 1px;
+}
