@@ -5,27 +5,40 @@ h1 {text-align: center;
 }
 
 header{
-    background-color: rgb(119, 210, 241);
+    background-color: rgb(96, 206, 243);
     margin-left: 1px;
     padding-right: 10px;
     
 
 }
 
-.linkit {
+#linkki{
+    width: 100%;
+    height: 1px;
+}
+
+#linkit {
     float: left;
-    background-color: rgb(119, 210, 241);
+    background-color: rgb(142, 214, 238);
     margin-left: 1px;
     margin-right: 10px;
-    margin-top: 0px;
     padding-right: 10px;
-    padding-left: 1px;
-    padding-top: 0%;
     height: 400px;
 }
 
 .valikko { 
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgb(142, 214, 238);
+}
+
+.valikko > div { 
+    flex: 1;
     text-align: center;
-    padding-bottom: 10px;
-    background-color: rgb(119,210, 241);
+}
+
+
+a:hover {
+    color: red;
 }

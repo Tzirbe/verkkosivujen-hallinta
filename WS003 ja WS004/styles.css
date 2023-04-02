@@ -1,8 +1,14 @@
-body { 
+body {
+    background-color: black;
+    color: white;
+}
+
+.toinen{ 
     background-image: url(./images/taustakuva.jpg);
     color: black;
     margin-left:10px;
     margin-right:10px;
+    float: left;
 }
 
 h1 { border-style:dashed;
@@ -16,7 +22,7 @@ width: 150px;
 font-size: 18px;
 }
 
-p { background-color: white;
+#kappale { background-color: white;
     font-size: 16px;
     color: black;
     border-radius: 300px;
@@ -37,3 +43,4 @@ ul {list-style-type: square;}
 #pic2 { 
     padding-left: 1px;
 }
+
