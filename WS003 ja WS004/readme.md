@@ -1,1 +1,1 @@
-ws03 harjoitus
+ws03, 04 ja 06 harjoitus
