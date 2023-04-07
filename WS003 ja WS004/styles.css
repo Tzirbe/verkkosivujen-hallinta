@@ -3,26 +3,65 @@ body {
     color: white;
 }
 
+header{
+    background-color: rgb(48, 49, 49);
+    margin-left: 1px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+   
+}
+    
+#header2 {
+    background-color: rgb(225, 235, 235);
+    margin-left: 1px;
+    padding-right: 10px;
+    text-align: center
+}
+
+    .valikko { 
+        display: flex;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        background-color: rgb(77, 79, 79);}
+
+        .valikko > div { 
+            flex: 5;
+            text-align: center;
+        }
+
+    .valikko2 {display: flex;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        background-color: rgb(225, 235, 235);}
+    
+
+    .valikko2 > div { 
+        flex: 5;
+        text-align: center;
+    }
+
+        
 .toinen{ 
     background-image: url(./images/taustakuva.jpg);
     color: black;
-    margin-left:10px;
-    margin-right:10px;
-    float: left;
+  
 }
 
-h1 { border-style:dashed;
-    width: 200px;
-    height: 30px;
-    font-size: 20px;
+h1 { font-size: 20px;
 }
 
 h2 { border-style:dashed;
-width: 150px;
+width: 110px;
 font-size: 18px;
 }
 
-#kappale { background-color: white;
+p {font-size: 12px;
+    color: lightgray;
+
+}
+
+#kappale { background-color: rgb(166, 212, 243);
     font-size: 16px;
     color: black;
     border-radius: 300px;
@@ -42,6 +81,12 @@ ul {list-style-type: square;}
 
 #pic2 { 
     padding-left: 1px;
+}
+
+
+#teksti {
+    font-size: 16px;
+    color: black;
 }
 
 
