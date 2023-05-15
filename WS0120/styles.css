@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("kuvat/kukka.jpg");
+    height: 100%;
+    background-repeat:no-repeat;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+}
+
+
