@@ -12,4 +12,13 @@ body, html {
     background-position: center;
 }
 
+.otsikko {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+
+
+}
