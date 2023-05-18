@@ -1,10 +1,18 @@
+@media only screen and (max-width: 600px) {
+}
+
 body, html {
     height: 100%;
     margin: 0;
 }
 
+.container {
+    width: 80%;
+    margin: 0;
+}
+    
 .bg {
-    background-image: url("kuvat/kukka.jpg");
+    background-image: url("kuvat/stormtrooper.jpg");
     height: 100%;
     background-repeat:no-repeat;
     width: 100%;
@@ -16,9 +24,26 @@ body, html {
     padding-top: 30px;
     padding-left: 50px;
     padding-bottom: 30px;
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:100px;
+    text-shadow: 2px 2px white;
+  
 
+}
 
+#tekstikappale {
+    background-color: white;
+    ;
+    padding-left: 30px;
+    margin-left: 25px;
+    margin-right: 700px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    
 
 }
