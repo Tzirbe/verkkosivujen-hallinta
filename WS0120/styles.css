@@ -194,4 +194,35 @@ left: 15px;
     margin-left: 1000px;
 }
 
+.neljäs {
+  background-image: url(kuvat/yhdessä.jpg);
+  height: 100%;
+ background-repeat: repeat-y;
+ width: 100%;
+ background-size: cover;
+ background-position: center;
+}
 
+.kysely {
+  max-width: 50%;
+  margin-left: 20px;
+}
+
+#vikaotsikko {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.kolmas {
+  background-image: url(kuvat/päät.jpg);
+  height: 100%;
+  background-repeat: repeat-y;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2, h1{
+  text-align: center;
+}
